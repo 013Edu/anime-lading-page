@@ -8,8 +8,8 @@ import img4 from "../assets/Rectangle 24 (2).png";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-end justify-between p-24">
-      <div className='flex justify-between'>
+    <main className="flex min-h-screen flex-col items-end justify-between p-24 max-[500px]:p-0 max-[500px]:pl-10">
+      <div className='flex justify-between max-[1900px]:flex-col'>
         <div>
           <h3 className='text-yellow-500 font-bold'>#2 SPOTLIGHT</h3>
           <h1 className='text-6xl font-bold max-w-[650px]'>Bleach:<br/> Thousand-Year<br/> Blood War</h1>
@@ -23,7 +23,7 @@ export default function Home() {
           </button>
         </div> 
         </div>
-        <div className='ml-96 mt-72'>
+        <div className='ml-96 mt-72 max-[1900px]:ml-0'>
           <h2 className='text-2xl my-5'>featured anime</h2>
           <div>
             <div className='flex items-center gap-10 flex-wrap'>
